@@ -1,3 +1,9 @@
+#######################
+#
+#    Node.js gitignore
+#
+#######################
+
 # Logs
 logs
 *.log
@@ -57,3 +63,75 @@ typings/
 # dotenv environment variables file
 .env
 
+
+###################
+#
+#     My oirigins as a C/C++ dev
+#
+###################
+
+# Compiled binaries without file extension
+*
+!/**/
+!*.*
+
+#Mac shit
+.DS_Store
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+node-red.sh
