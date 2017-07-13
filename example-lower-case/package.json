@@ -1,0 +1,11 @@
+{
+  "name": "node-red-contrib-example-lower-case",
+  "version": "1.0.0",
+  "description": "example shit node",
+  "main": "index.js",
+  "author": "node-red contributors",
+  "license": "ISC",
+  "node-red": {
+    "nodes": {}
+  }
+}
