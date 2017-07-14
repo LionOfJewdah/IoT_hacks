@@ -5,9 +5,16 @@
   "main": "index.js",
   "author": "node-red contributors",
   "license": "ISC",
+  "dependencies": {
+    {
+      "promise": ">=6",
+      "nodeify": ">=1"
+    }
+  }
   "node-red": {
     "nodes": {
       "case": "lower"
     }
-  }
+  },
+  "private": true
 }
