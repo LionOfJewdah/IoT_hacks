@@ -51,7 +51,7 @@ int assign_nodes(int paramc, const char** args, const char* output = temp_packag
 	return system(("cat package.json |" + make_jq_query_from(vect) + write_to + output).c_str());
 }
 
-const std::string ASSIGN = "assign", INIT = "init";
+CONSTEXPR_STRING_VIEW ASSIGN = "assign" SV, INIT = "init" SV;
 
 int node_red_init() {
 	int x = system("npm init");

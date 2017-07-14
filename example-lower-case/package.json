@@ -6,6 +6,8 @@
   "author": "node-red contributors",
   "license": "ISC",
   "node-red": {
-    "nodes": {}
+    "nodes": {
+      "case": "lower"
+    }
   }
 }
